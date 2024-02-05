@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" integrity="sha512-r22gChDnGvBylk90+2e/ycr3RVrDi8DIOkIGNhJlKfuyQM4tIRAI062MaV8sfjQKYVGjOBaZBOA87z+IhZE9DA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    
+</head>
+<body>
+  <div class="container">
+    <input type="file" id="file-input" accept=".xlxs">
+    <button id="create-table-btn">Calculate Hours</button>
+    <div id="table-container"></div>
+
+
+  </div>
+  <div id="loading-spinner" style="display: none;">
+    <img src="https://i.gifer.com/ZKZg.gif" alt="Loading..." />
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
